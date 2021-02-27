@@ -20,16 +20,16 @@ require 'dbhandler.php';
     $allowed = array('jpg','jpeg','png','svg');
 
     if ($file_error !==0) {
-        header("Locaton: ../profile.php?error=UploadError");
+        header("Location: ../profile.php?error=UploadError");
        exit();
     }
 
     if (!in_array($ext, $allowed)) {
-        header("Locaton: ../profile.php?error=InvalidType");
+        header("Location: ../profile.php?error=InvalidType");
     exit();
     }
     if($file_size > 4*MB){
-        header("Locaton: ../profile.php?error=FileSizeExceeded");
+        header("Location: ../profile.php?error=FileSizeExceeded");
         exit();
     }
 
@@ -43,7 +43,7 @@ require 'dbhandler.php';
         mysqli_query($conn,$sql);
 
         move_uploaded_file($file_tmp_name, $destination);
-        header("Locaton: ../profile.php?success=UploadSuccess");
+        header("Location: ../profile.php?success=UploadSuccess");
         exit();
 
     }

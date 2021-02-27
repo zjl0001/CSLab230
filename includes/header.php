@@ -21,12 +21,10 @@ session_start();
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <link rel="stylesheet" href="../css/signup.css">
-
 </head>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="d-md-flex d-block flex-rox mx-md-auto mx-0">
+        <div class="d-md-flex d-block flex-row mx-md-auto mx-0">
             <a class="navbar-brand" href="#">Star Wars Cite</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,8 +50,8 @@ session_start();
                 </li>'; 
             }
             ?>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../index.php">Home<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.php">Home</a>
                     </li>
                 </ul>
             </div>
