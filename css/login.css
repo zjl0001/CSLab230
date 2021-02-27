@@ -16,8 +16,7 @@
 .form-signin{
     background-color: beige;
     padding: 20px;
-    border: radius 20px;
-
+    border-radius: 20px;
     text-align:center;
 }
 

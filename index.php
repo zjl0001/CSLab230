@@ -1,9 +1,12 @@
+<?php
+require 'includes/header.php';
+?>
 <main>
     <link rel = "stylesheet" href="css/about.css">
 
     <div class="about">
       <h1>About Us</h1>
-      <p>klasjdfflkjsklfjdl;sfjksldfjl;sflf;alsfjsd;f</p>
+      <p>Welcome to the Star Wars Fan Page</p>
     </div>
     <div class="row">
       <div class="column">
