@@ -5,7 +5,7 @@ require "includes/header.php"
 <main>
     <link rel="stylesheet" href="../css/signup.css">
     <div class="bg-cover">
-        <div class="h-100 container center">
+        <div class="h-100 container center-me">
             <div class="my-auto">
                 <div class="signup-form">
 
